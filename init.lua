@@ -3,11 +3,5 @@ require "plugins"
 
 
 -- Noirbuddy colorsheme config
-require('noirbuddy').setup {
-    -- preset = 'kiwi'
-    -- preset = 'slate'
-    -- preset = 'minimal'
-    -- preset = 'crt-green'
-    -- preset = 'crt-amber'
-    preset = 'miami-nights'
-}
+-- preset options: kiwi, slate, minimal, crt-green, crt-amber, miami-nights
+require('noirbuddy').setup { preset = 'miami-nights' }
